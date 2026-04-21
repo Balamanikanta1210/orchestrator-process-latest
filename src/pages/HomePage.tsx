@@ -171,7 +171,7 @@ export function HomePage() {
     const endIndex = startIndex + itemsPerPage;
     return filteredProcesses.slice(startIndex, endIndex);
   }, [filteredProcesses, currentPage]);
-  const totalPages = Math.ceil(filteredProcesses.length / itemsPerPage);
+  const totalPages = Math.max(1, Math.ceil(filteredProcesses.length / itemsPerPage));
   // Event handlers
   const handleSort = useCallback(
     (column: SortColumn) => {
