@@ -2,7 +2,7 @@
 
 A professional, enterprise-grade web application that displays all UiPath Orchestrator processes with comprehensive details in a clean, information-dense dashboard. Built with React, TypeScript, and the official UiPath SDK.
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Balamanikanta1210/orchestrator-process-latest)
 
 ## Overview
 
@@ -199,7 +199,7 @@ The project includes comprehensive SDK documentation in `prompts/sdk-reference/`
 
 ### Deploy to Cloudflare Pages
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Balamanikanta1210/orchestrator-process-latest)
 
 **Manual Deployment:**
 
